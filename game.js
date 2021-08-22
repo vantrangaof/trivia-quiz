@@ -281,7 +281,7 @@ let questions = [
     choice2: "Copper",
     choice3: "Zinc",
     choice4: "Helium",
-    answer: 1,
+    answer: 2,
 },
     
     {

@@ -30,7 +30,7 @@ username.addEventListener('keyup', () => {
     highScores.splice(5)
 
     localStorage.setItem('highScores', JSON.stringify(highScores))
-    window.location.assign('/')
+    window.location.assign('highscores.html')
 }*/
 
 function saveHighScores(e) {
@@ -48,4 +48,5 @@ function saveHighScores(e) {
     }
     highScores.push(score);
     localStorage.setItem('highScores', JSON.stringify(highScores));
+    window.location.assign('highscores.html');
   }

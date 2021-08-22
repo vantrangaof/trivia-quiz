@@ -59,6 +59,18 @@ body {
 }
 @media only screen and (max-width: 768px) {
   .choice-container {
-    min-width: 500px;
+    display: flex;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 4px;
+    background: rgba(45, 77, 142, 0.84);
+    font-size: 15px;
+    min-width: 300px;
+  }
+  .correct {
+    background: rgb(93, 150, 93);
+  }
+  .incorrect {
+    background: rgb(174, 85, 60);
   }
 }

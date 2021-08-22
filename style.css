@@ -125,3 +125,15 @@ input::placeholder {
   font-size: 18px;
   color: rgb (28, 26, 26);
 }
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 300px;
+  }
+  h1 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 18px;
+    text-align: center;
+  }
+}

@@ -161,7 +161,7 @@ let questions = [
     choice2: "Old Town Road",
     choice3: "I Don’t Care",
     choice4: "Bad Guy",
-    answer: 1,
+    answer: 2,
 },
     {
     question: "In which country is Transylvania?",
